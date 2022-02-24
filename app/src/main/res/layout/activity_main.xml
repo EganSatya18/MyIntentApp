@@ -9,6 +9,7 @@
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
+    android:background="#B8405E"
     android:paddingTop="16dp">
 
     <Button
@@ -32,4 +33,25 @@
             android:layout_marginBottom="16dp"
             android:text="Pindah Activity dengan Object"/>
 
+    <Button
+        android:id="@+id/btn_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Activity ke Dial Number"/>
+
+    <Button
+        android:id="@+id/btn_move_for_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/move_with_result"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="@string/result_from_acitvity"/>
 </LinearLayout>
